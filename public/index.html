@@ -8,34 +8,60 @@
     <title>Real-Time Poll App</title>
 </head>
 <body>
+
+    <nav>
+        <div class="nav-wrapper teal">
+          <a href="#" class="brand-logo center">Vote</a>
+        </div>
+      </nav>
+            
     <div class="container">
-        <h1>Vote</h1>
-        <p>Vote for the most popular programming language in 2020</p>
+        <br>
+        <h6>Vote for the most popular programming language in 2020</h6>
+       
         <form id="vote-form">
             <p>
-                <input type="radio" name="pl" id="java" value="Java">
-                <label for="java">Java</label>
+            <label for="java"> 
+                <input class="with-gap" type="radio" name="pl" id="java" value="Java">
+                <span>Java</span>
+            </label>
             </p>
 
             <p>
-                <input type="radio" name="pl" id="python" value="Python">
-                <label for="python">Python</label>
+            <label for="python"> 
+                <input class="with-gap" type="radio" name="pl" id="python" value="Python">
+                <span>Python</span> 
+            </label>
             </p>
 
             <p>
-                <input type="radio" name="pl" id="javascript" value="JavaScript">
-                <label for="javascript">JavaScript</label>
+            <label for="javascript">
+                <input class="with-gap" type="radio" name="pl" id="javascript" value="JavaScript">
+                <span>JavaScript</span>
+            </label>
+            </p>
+
+            <!-- <p>
+            <label for="c++">
+                <input class="with-gap" type="radio" name="pl" id="c++" value="C++">
+                <span>C++</span>
+            </label>
             </p>
 
             <p>
-                <input type="radio" name="pl" id="c++" value="C++">
-                <label for="c++">C++</label>
-            </p>
+            <label for="c#">
+                <input class="with-gap" type="radio" name="pl" id="c#" value="C#"> 
+                <span>C#</span>
+            </label>
+            </p> -->
 
             <p>
-                <input type="radio" name="pl" id="other" value="Other">
-                <label for="other">Something Else</label>
+            <label for="other">
+                <input class="with-gap" type="radio" name="pl" id="other" value="Other">
+                <span>Others</span> 
+            </label>
             </p>
+                    
 
             <input type="submit" value="Vote" class="btn">
         </form>
