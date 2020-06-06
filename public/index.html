@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Real-Time Poll App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Vote</h1>
+        <p>Vote for the most popular programming language in 2020</p>
+        <form id="vote-form">
+            <p>
+                <input type="radio" name="pl" id="java" value="Java">
+                <label for="java">Java</label>
+            </p>
+
+            <p>
+                <input type="radio" name="pl" id="python" value="Python">
+                <label for="python">Python</label>
+            </p>
+
+            <p>
+                <input type="radio" name="pl" id="javascript" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </p>
+
+            <p>
+                <input type="radio" name="pl" id="c++" value="C++">
+                <label for="c++">C++</label>
+            </p>
+
+            <p>
+                <input type="radio" name="pl" id="other" value="Other">
+                <label for="other">Something Else</label>
+            </p>
+
+            <input type="submit" value="Vote" class="btn">
+        </form>
+
+        <br>
+        <br>
+
+        <div id="chartContainer" style="height: 300px; width: 100%;">
+
+        </div>
+
+    </div>
+  
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/6.0.3/pusher.min.js" integrity="sha256-2facVi+jnRsAKvBdoca5kkfmnBSkjmezXYqLDv1zkSg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js" integrity="sha256-CIc5A981wu9+q+hmFYYySmOvsA3IsoX+apaYlL0j6fg=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
