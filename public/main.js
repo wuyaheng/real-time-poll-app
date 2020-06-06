@@ -45,7 +45,7 @@ fetch('/poll').then(res => res.json()).then(data => {
             animationEnabled: true,
             colorSet: "colors",
             title: {
-                text: `Total Votes ${totalVotes}`
+                text: `Programming Languages Votes Count`
             },
             data: [
               {
