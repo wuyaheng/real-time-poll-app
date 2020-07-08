@@ -13,7 +13,7 @@ Real Time Poll is a small application that displays poll result on a bar graph b
 
 * Contributor
 
-* links
+* link
 
 * Questions
 
